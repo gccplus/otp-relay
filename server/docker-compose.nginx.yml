@@ -1,0 +1,14 @@
+services:
+  app:
+    container_name: otp-relay-app
+    environment:
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:?PUBLIC_BASE_URL is required}
+
+  caddy:
+    profiles:
+      - standalone-caddy
+
+networks:
+  frontend:
+    external: true
+    name: ${EXTERNAL_PROXY_NETWORK:?EXTERNAL_PROXY_NETWORK is required}

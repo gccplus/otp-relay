@@ -1,0 +1,35 @@
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+!.env.production.example
+*.log
+
+# Android
+.gradle/
+local.properties
+android/app/build/
+android/build/
+
+# Swift
+mac/.build/
+DerivedData/
+
+# 本地配置、签名材料与发布产物
+.claude/
+codex_output/
+artifacts/
+*.apk
+*.aab
+*.dmg
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+*.pem
+*.dump
