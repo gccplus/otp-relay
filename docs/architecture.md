@@ -1,6 +1,8 @@
 # OTP Relay 技术方案与流程
 
-基于 GitHub 公开版提交 [a3a51e3](https://github.com/gccplus/otp-relay/commit/a3a51e3f56af77be719f4df418ea60b68a4f16aa)。系统将 Android 新收到的短信验证码投递到已配对的 macOS 或 Windows 电脑。一台手机可绑定多台电脑，每台电脑只保留一条活跃配对。
+OTP Relay 是一款可自托管的工具，可将 Android 手机收到的短信验证码端到端加密同步到 macOS 或 Windows。
+
+基于 GitHub 公开版提交 [a3a51e3](https://github.com/gccplus/otp-relay/commit/a3a51e3f56af77be719f4df418ea60b68a4f16aa)。一台手机可绑定多台电脑，每台电脑只保留一条活跃配对。
 
 ## 1. 系统架构
 
